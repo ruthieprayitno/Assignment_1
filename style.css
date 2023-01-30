@@ -16,7 +16,10 @@ body{
 
 main{
     line-height: 2.2em;
+    text-indent: 3em;
 }
+
+main:first-child {text-indent:0;}
 
 header{
     background-color: lavender;
