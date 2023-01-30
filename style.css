@@ -14,11 +14,12 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-main{
+p{
     line-height: 2.2em;
     text-indent: 3em;
 }
 
+p:first-child {text-indent:0;}
 
 header{
     background-color: lavender;
