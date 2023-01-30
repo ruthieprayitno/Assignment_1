@@ -14,6 +14,10 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
+main{
+    line-height: 2.2em;
+}
+
 header{
     background-color: lavender;
 }
