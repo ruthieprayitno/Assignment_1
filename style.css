@@ -1,0 +1,24 @@
+.box{
+    width: 100%;
+    max-width: 1024px;
+    padding: 20%;
+}
+
+.box::after{
+    content: '';
+    display: block;
+    padding: 20%;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: lavender;
+}
+
+footer{
+    background-color: black;
+    text-decoration-color: aliceblue;
+}
